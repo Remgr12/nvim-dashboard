@@ -54,3 +54,7 @@ You need to copy the snacks.lua file from this directory to
   - Confirm the file(s) are being required by your Neovim config or plugin
     manager.
   - Check for errors on Neovim startup (`:messages`) and resolve any Lua errors.
+
+## Example
+
+<img width="1896" height="1030" alt="image" src="https://github.com/user-attachments/assets/d363d4e1-86fb-48ba-8c90-c51ff0dad5f7" />
