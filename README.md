@@ -1,4 +1,4 @@
-# Neovim Dashboard (this repo)
+# Neovim Dashboard
 
 ## Overview
 
@@ -20,7 +20,7 @@ a right-side projects pane plus a GitHub notifications & status tab.
 - Neovim (your local setup that already uses LazyVim or a similar plugin
   manager).
 - GitHub CLI (gh) installed and authenticated.
-  - Install from https://cli.github.com/ if you don't have it.
+  - Install from <https://cli.github.com/> if you don't have it.
 - gh-notify extension for GitHub CLI:
   - gh extension install meiji163/gh-notify
 
