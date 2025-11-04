@@ -9,19 +9,16 @@ return {
 
 			preset = {
 				header = [[
-                                                  
-                                                  
-                         ###                      
-              ::                    ###           
-              ##                    #:#           
-                        :::    #                  
-        :.:            ДДДДД            #.#       
-         #             :%%%:            ###       
-             :     #                              
-            .%.                    %%#            
-                       %%%         ::             
-                       :::                        
-                                                          ]],
+                            ###                
+                 ::                    ###     
+                 ##                    #:#     
+                           :::    #            
+           :.:            ДДДДД            #.# 
+            #             :%%%:            ### 
+                :     #                        
+               .%.                    %%#      
+                          %%%         ::       
+                          :::                ]],
 
 				keys = {
 					{ icon = " ", key = "f", desc = "Find File", action = ":lua Snacks.dashboard.pick('files')" },
@@ -41,11 +38,12 @@ return {
 					{ icon = " ", key = "s", desc = "Restore Session", section = "session" },
 					{
 						icon = "󰒲 ",
-						key = "L",
+						key = "l",
 						desc = "Lazy",
 						action = ":Lazy",
 						enabled = package.loaded.lazy ~= nil,
 					},
+					{ icon = " ", key = "e", desc = "Lazy Extras", action = ":LazyExtras" },
 					{ icon = " ", key = "q", desc = "Quit", action = ":qa" },
 				},
 			},
@@ -60,7 +58,7 @@ return {
 					section = "projects",
 					indent = 2,
 					padding = 1,
-					limit = 10,
+					limit = 6,
 				},
 				function()
 					local in_git = Snacks.git.get_root() ~= nil
@@ -73,7 +71,7 @@ return {
 							end,
 							key = "n",
 							icon = " ",
-							height = 11,
+							height = 13,
 							enabled = true,
 						},
 						{
