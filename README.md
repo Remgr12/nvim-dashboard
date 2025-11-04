@@ -57,4 +57,5 @@ You need to copy the snacks.lua file from this directory to
 
 ## Example
 
-<img width="1896" height="1030" alt="image" src="https://github.com/user-attachments/assets/d363d4e1-86fb-48ba-8c90-c51ff0dad5f7" />
+<img width="1896" height="1030" alt="image" src="https://github.com/user-attachments/assets/d0c48713-9c7f-47c1-b8e7-58612a34add2" />
+
