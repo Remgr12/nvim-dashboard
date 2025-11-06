@@ -21,6 +21,7 @@ return {
                           :::                ]],
 
 				keys = {
+					{ icon = " ", key = "w", desc = "Projects", action = ":lua Snacks.dashboard.pick('projects')" },
 					{ icon = " ", key = "f", desc = "Find File", action = ":lua Snacks.dashboard.pick('files')" },
 					{ icon = " ", key = "n", desc = "New File", action = ":ene | startinsert" },
 					{
@@ -71,7 +72,7 @@ return {
 							end,
 							key = "n",
 							icon = " ",
-							height = 13,
+							height = 15,
 							enabled = true,
 						},
 						{
