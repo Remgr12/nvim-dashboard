@@ -9,7 +9,8 @@ plus a GitHub notifications & status tab.
 
 ## Key features
 
-- Basic LazyVim dashboard items (recent files, new file, find file, etc.).
+- Basic LazyVim dashboard items (recent files, new file, find file, projects,
+  etc.).
 - Right-side folder / projects panel that lists your project directories for
   quick switching.
 - GitHub notifications and status tab integrated into the dashboard UI.
@@ -57,7 +58,4 @@ You need to copy the snacks.lua file from this directory to
 
 ## Example
 
-<img width="1896" height="1030" alt="image" src="https://github.com/user-attachments/assets/faa09c51-34f7-49f3-99a5-1c56a18fa0f8" />
-
-
-
+<img width="1896" height="1030" alt="image" src="https://github.com/user-attachments/assets/b2dd3595-655b-4ba2-b60d-ff69d7644db3" />
