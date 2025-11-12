@@ -36,7 +36,7 @@ You need to copy the snacks.lua file from this directory to
 
 2. Install the gh-notify extension: gh extension install meiji163/gh-notify
 
-3. Authenticate gh if not already: gh auth status || gh auth login
+3. Authenticate gh if not already: gh auth status  | gh auth login
 
    Follow the interactive prompts from `gh auth login` to complete
    authentication.
