@@ -36,7 +36,7 @@ return {
 						desc = "Config",
 						action = ":lua Snacks.dashboard.pick('files', {cwd = vim.fn.stdpath('config')})",
 					},
-					{ icon = " ", key = "s", desc = "Restore Session", section = "session" },
+					{ icon = " ", key = "S", desc = "Restore Session", section = "session" },
 					{
 						icon = "󰒲 ",
 						key = "l",
@@ -52,15 +52,22 @@ return {
 				{ section = "header" },
 				{ section = "keys", gap = 1, padding = 1 },
 
-				{
-					pane = 2,
-					icon = " ",
-					title = "Repositories",
-					section = "projects",
-					indent = 2,
-					padding = 1,
-					limit = 6,
-				},
+				function()
+					local width = math.floor(vim.o.columns * 0.4)
+					width = math.max(20, math.min(width, 50))
+
+					return {
+						pane = 2,
+						section = "projects",
+						icon = " ",
+						title = "Repositories",
+						indent = 2,
+						padding = 1,
+						limit = 6,
+						width = width,
+					}
+				end,
+
 				function()
 					local in_git = Snacks.git.get_root() ~= nil
 					local cmds = {
