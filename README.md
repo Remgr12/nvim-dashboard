@@ -31,7 +31,7 @@ You need to copy the snacks.lua file from this directory to
 ~/.config/nvim/lua/plugins/
 (ln snacks.lua ~/.config/nvim/lua/plugins/)
 
-Also install fzf-lua for most of the things to work.
+Also install fzf-lua for most of the things to work correctly.
 
 ## GitHub notifications setup
 
