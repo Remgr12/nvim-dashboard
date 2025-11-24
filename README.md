@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains a Neovim dashboard configuration intended for
+This repository contains an Nvim dashboard configuration intended for
 snacks.nvim. The dashboard provides the familiar LazyVim-style quick actions
 (recent files, find files, new file, etc.) and adds a right-side projects pane
 plus a GitHub notifications & status tab.
